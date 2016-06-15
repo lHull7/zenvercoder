@@ -1,0 +1,804 @@
+6-15-16
+
+<div class="feat-work-hidden">
+                <h5 class="fig_cap" data-toggle="modal" data-target="#project1">My First Code Pen</h5>
+            </div>
+
+6-14-16
+
+.place-hold {
+    margin: auto;
+}
+
+
+
+.featured-work-h5 {
+    display: none;
+}
+
+.img-lg {
+    /*display: none;*/
+}
+.img-md {
+    display: none;
+}
+.img-sm {
+display: none;
+}
+
+
+ <!--<div class="featured-work-h5">-->
+                            <!--<figcaption>-->
+                                <!--<h5 class="fig_cap" data-toggle="modal" data-target="#project1">My First Code Pen</h5>-->
+                            <!--</figcaption>-->
+                        <!--</div>-->
+                    <!--</div>-->
+    /*.featured-work-hidden {*/
+        /*display: none;*/
+    /*}*/
+
+    /*.featured-work {*/
+        /*margin: auto;*/
+    /*}*/
+    /*.featured-work-h5 {*/
+        /*display: inline-block;*/
+    /*}*/
+
+
+
+/*a.inner footer:hover {*/
+    /*transition: 0.7s;*/
+    /*!*transform: translateY(-20px);*!*/
+    /*!*box-shadow: 0 12px 16px 0     rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*!*/
+    /*!*color: rgba(255, 255, 255, 0.95);*!*/
+    /*!*top: 12px;*!*/
+/*}*/
+
+  <!--<div class="social-icon-container">-->
+            <div class="social-icon">
+                <a target="_blank" href="http://http://codepen.io/zenvercoder/"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+            </div>
+        <!--</div>-->
+
+        <!--<div class="social-icon-container">-->
+            <div class="social-icon">
+                <a target="_blank" href="https://twitter.com/zenvercoder?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        <!--</div>-->
+
+        <!--<div class="social-icon-container">-->
+          <div class="social-icon">
+              <a target="_blank" href="https://www.youtube.com/channel/UCZcxFrX3yaFgusD7DwSdcJg"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+           </div>
+        <!--</div>-->
+
+        <!--<div class="social-icon-container">-->
+         <div class="social-icon">
+             <a target="_blank" href="https://github.com/lHull7"><i class="fa fa-github" aria-hidden="true"></i></a>
+         </div>
+        <!--</div>-->
+
+        <!--<div class="social-icon-container">-->
+            <div class="social-icon">
+                <a target="_blank" href="page2.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        <!--</div>-->
+
+/*.extras {*/
+           /*position: fixed;*/
+           /*width: 100%;*/
+           /*height: 45px;*/
+           /*margin-bottom: 0px;*/
+           /*padding-top: 70px;*/
+           /*!*margin-left: 0px;*!*/
+           /*!*margin-left: auto;*!*/
+           /*border: 1px solid red;*/
+           /*!*background: #111;*!*/
+           /*!*background: rgba(15,15,15,0.78);*!*/
+       /*}*/
+
+/*.links-bar {*/
+    /*position: fixed;*/
+    /*!*to stand on the side*!*/
+    /*width: 35px;*/
+    /*height: 100%;*/
+    /*!*margin-bottom: 10px;*!*/
+/*}*/
+
+/*.social-icon {*/
+    /*display: inline-block;*/
+    /*width: 18%;*/
+    /*margin: auto;*/
+    /*!*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*!*/
+/*}*/
+
+/*.social-icon-container {*/
+    /*width: 12%;*/
+    /*display: inline-block;*/
+    /*margin: auto;*/
+    /*border: 1px solid red;*/
+}
+
+
+<!--<div class="social-icon-container">-->
+            <!--<div class="social-icon">-->
+                <!--<i class="fa fa-bars" aria-hidden="true"></i>-->
+            <!--</div>-->
+        <!--</div>-->
+
+ .btn-responsive {
+        /*padding: 2px 4px;*/
+        /*line-height: 1;*/
+        /*font-size: 80%;*/
+        /*height: 30px;*/
+        /*width: 60px;*/
+        /*border-radius: 12px;*/
+    }
+.social-icon {
+    display: inline-block;
+    width: 18%;
+    margin: auto;
+
+    /*height: 30px;*/
+    /*width: 30px;*/
+    border-radius: 15px;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px 0 2px 2px;
+    margin: 10px 0 10px 0;
+}
+
+  -webkit-box-shadow: 7px 6px 15px 81px rgba(0,0,0,0.76);
+    -moz-box-shadow: 7px 6px 15px 81px rgba(0,0,0,0.76);
+    box-shadow: 7px 6px 15px 81px rgba(0,0,0,0.76);
+            <div class="col-4">
+                <div class="featured-work">
+                    <!-- Button trigger modal -->
+                    <a target="_blank" href="http://zenvercoder.co/bootStrapPage.html">
+                        <img class="img-responsive featured-work-img featured-work-hidden" src="images/bootStrapProject.png">
+                    </a>
+                    <button type="button" class="btn btn-secondary-outline btn-lg" data-toggle="modal" data-target="#project3">
+                        <h5>Bootstrap Mockup</h5>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col-4">
+                <div class="featured-work">
+                <!-- Button trigger modal -->
+                    <a target="_blank" href="http://codepen.io/zenverdev/pen/ZWZbyv">
+                        <img class="img-responsive featured-work-img featured-work-hidden" src="images/hippoPen.png">
+                    </a>
+                    <!--<h5 data-toggle="modal" data-target="#project2">Hippogriff</h5>-->
+
+                    <button type="button" class="btn btn-secondary-outline btn-lg" data-toggle="modal" data-target="#project2">
+                        <h5>Hippogriff</h5>
+                    </button>
+                </div>
+            </div>
+
+getting super close
+<div class="col-4">
+                <!--#hero-->
+                <div class="featured-work">
+                    <a target="_blank" href="http://codepen.io/zenvercoder/pen/EKrJNj" class="inner">
+                        <div>
+                            <img src="images/firstCodePen.png" class="featured-work-img featured-work-hidden img-responsive" alt="first code pen"/>
+                            <footer>
+                                <figcaption>
+                                    <h5 class="fig_cap" data-toggle="modal" data-target="#project1">My First Code Pen</h5>
+                                </figcaption>
+                            </footer>
+                        </div>
+                    </a>
+                </div>
+            </div>
+footer {
+    animation: footerSlide 400ms 0 ease-out normal;
+    -webkit-transform: translateZ(0);
+    position: absolute;
+    max-width: 100%;
+    height: 30%;
+    background: #111;
+    background: rgba(15,15,15,0.78);
+    bottom: -2px;
+    color: #fff;
+}
+                    <h5 class="btn" data-toggle="modal" data-target="#project1">My First Code Pen</h5>
+
+<div class="featured-work">
+
+                    <a target="_blank" href="http://codepen.io/zenvercoder/pen/EKrJNj">
+                        <div>
+                            <img src="images/firstCodePen.png" class="featured-work-img featured-work-hidden img-responsive" alt="first code pen"/>
+                            <div>
+                                <div class="inner">
+                                    <h5 class="btn" data-toggle="modal" data-target="#project1">My First Code Pen</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+
+
+                    <!--<img src="images/firstCodePen.png" class="featured-work-img featured-work-hidden img-responsive" alt="first code pen"/>-->
+                    <!--<a target="_blank" href="http://codepen.io/zenvercoder/pen/EKrJNj">-->
+                        <!--<figure>-->
+                            <!--<img src="images/firstCodePen.png" class="featured-work-img featured-work-hidden img-responsive" alt="first code pen"/>-->
+                            <!--<footer>-->
+                                <!--<figcaption>-->
+                                    <!--<h5 class="btn inner" data-toggle="modal" data-target="#project1">My First Code Pen</h5>-->
+                                <!--</figcaption>-->
+                            <!--</footer>-->
+                        <!--</figure>-->
+                    <!--</a>-->
+                </div>
+            </div>
+ <!--<figure style="background-image:url(images/firstCodePen.png)"-->
+                                    <!--class="featured-work-img img-responsive" ></figure>-->
+                            <!--<figure>-->
+                                <!--<img class="featured-work-img featured-work-hidden img-responsive" src="images/firstCodePen.png">-->
+                            <!--</figure>-->
+
+                        <!--<button type="button" class="btn btn-secondary-outline btn-lg btn-responsive" data-toggle="modal" data-target="#project1">-->
+                        <!--<h5>My First Code Pen</h5>-->
+                        <!--</button>-->
+<!--<footer>-->
+                        <!--<figcaption>-->
+                            <!--<h5 class="btn inner" data-toggle="modal" data-target="#project1">My First Code Pen</h5>-->
+                        <!--</figcaption>-->
+                    <!--</footer>-->
+                    <!--<h5 class="btn inner" data-toggle="modal" data-target="#project1">My First Code Pen</h5>-->
+
+
+.social-icon {
+        /*display: inline-block;*/
+        margin: 30px auto 30px auto;
+        height: 60px;
+        width: 60px;
+    }
+
+6-7-16
+        <!--6-6-16 cut out poem for now-->
+        <!--<div>-->
+        <!--<div class="poem"><a target="_blank" href="https://www.codecademy.com/en/learn/web"><h3 class="text-thin">Code</h3></a></div>-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<div class="flowing-poem col-md-12 text-thin">-->
+        <!--<a target="_blank" href="https://twitter.com/thecoderlife?lang=en"><h3 class="text-thin col-md-12">Lover</h3></a>-->
+        <!--<a target="_blank" href="https://twitter.com/CodeNewbies?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><h3 class="text-thin col-md-12">Noob</h3></a>-->
+        <!--<a target="_blank" href="https://cs50.harvard.edu/lectures"><h3 class="text-thin col-md-12">Learner</h3></a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--6-6-16 another invisible hr-->
+        <!--<div class="row">-->
+        <!--<div class="col-md-12">-->
+        <!--<hr>-->
+        <!--</div>-->
+not included in featured work page at this time
+<div class="grid">
+    <div class="row">
+        <div class="col-4">4 Columns</div>
+        <div class="col-4">4 Columns</div>
+        <div class="col-4">4 Columns</div>
+    </div>
+    <div class="row">
+        <div class="col-4">4 Columns</div>
+        <div class="col-4">4 Columns</div>
+        <div class="col-4">4 Columns</div>
+    </div>
+    <div class="row">
+        <div class="col-4">4 Columns</div>
+        <div class="col-4">4 Columns</div>
+        <div class="col-4">4 Columns</div>
+    </div>
+</div>
+removed from @media
+
+    /*.links-bar {*/
+
+        /*!*height: 40px;*!*/
+        /*!*width: 100%;*!*/
+        /*!*margin-bottom: 0;*!*/
+        /*margin-left: 0px;*/
+    /*}*/
+
+cut placeholder image
+    <div class="row">
+                <div class="col-md-12">
+                    <div class="img-lg img-responsive">
+                        <img class="place-hold" src="http://placehold.it/750x150" alt="750x150 placeholder image">
+                    </div>
+                    <div class="img-md">
+                        <img class="place-hold" src="http://placehold.it/350x150" alt="350x150 placeholder image">
+                    </div>
+                    <div class="img-sm">
+                        <img class="place-hold" src="http://placehold.it/200x100" alt="350x150 placeholder image">
+                    </div>
+                </div>
+            </div>
+
+
+
+tried to push icons into a flowing poem below title
+
+<div class="flowing-poem">-->
+            <!--<div class="social-icon">-->
+                <!--<a target="_blank" href="http://http://codepen.io/zenvercoder/"><i class="fa fa-codepen" aria-hidden="true"></i></a>-->
+            <!--</div>-->
+
+            <!--<div class="social-icon">-->
+                <!--<a target="_blank" href="https://twitter.com/zenvercoder?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
+            <!--</div>-->
+
+            <!--<div class="social-icon">-->
+                <!--<a target="_blank" href="https://www.youtube.com/channel/UCZcxFrX3yaFgusD7DwSdcJg"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>-->
+            <!--</div>-->
+
+            <!--<div class="social-icon">-->
+                <!--<a target="_blank" href="https://github.com/lHull7"><i class="fa fa-github" aria-hidden="true"></i></a>-->
+            <!--</div>-->
+
+            <!--<div class="social-icon">-->
+                <!--<a target="_blank" href="page2.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>-->
+            <!--</div>-->
+        <!--</div>
+ <div class="row">
+            <div class="icon-space">
+                <div class="col-4">
+
+                </div>
+            </div>
+        </div>
+
+title section looks ok for now, this is an old version:
+<!--<div class="row">-->
+        <!--<div class="col-md-6">-->
+        <!--<img class="title-logo img-responsive" src="images/z.jpg" alt="photoshop z">-->
+        <!--</div>-->
+        <!--<div class="col-md-6 text-right text-uppercase">-->
+        <!--<h1 class="title-super text-thin">zenvercoder</h1>-->
+        <!--<h4>Front-end</h4>-->
+        <!--<h4>Wizard-in-training</h4>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+tried a bunch of dumb stuff with the links bar. Turns out it
+competes with the stuff at the bottom of the iphone. Might do something totally different
+
+/*width: 33%;*/
+        /*padding-left: 50px;*/
+        /*padding-right: 50px;*/
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+        /*position: fixed;*/
+        /*position: absolute;*/
+        /*margin-top: auto;*/
+        /*margin: 20px 10px 70px 70px;*/
+        /*margin: 0 210px 90px 60px;*/
+        /*-webkit-box-sizing: border-box;*/
+        /*-moz-box-sizing: border-box;*/
+        /*-ms-box-sizing: border-box;*/
+        /*box-sizing: border-box;*/
+        /*display: inline-block;*/
+        /*display: block:*/
+        /*display: flex; flex-wrap:wrap;*/
+        /*width: 100%;*/
+        /*inefectual*/
+        /*right: 0;*/
+        /*inefectual*/
+        /*inefectual*/
+        /*bottom: 30px;*/
+
+
+deleted placeholder image
+ <!--<div class="row">-->
+            <!--clean up for live site 5-30-16-->
+            <!--<div class="col-md-12">-->
+                <!--<div class="img-lg img-responsive">-->
+                    <!--<img class="place-hold" src="http://placehold.it/750x150" alt="750x150 placeholder image">-->
+                <!--</div>-->
+                <!--<div class="img-md">-->
+                    <!--<img class="place-hold" src="http://placehold.it/350x150" alt="350x150 placeholder image">-->
+                <!--</div>-->
+                <!--<div class="img-sm">-->
+                    <!--<img class="place-hold" src="http://placehold.it/200x100" alt="350x150 placeholder image">-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+deleted poem
+
+        <!--6-6-16 cut out poem for now-->
+        <!--<div>-->
+            <!--<div class="poem"><a target="_blank" href="https://www.codecademy.com/en/learn/web"><h3 class="text-thin">Code</h3></a></div>-->
+        <!--</div>-->
+        <!--<div>-->
+            <!--<div class="flowing-poem col-md-12 text-thin">-->
+                <!--<a target="_blank" href="https://twitter.com/thecoderlife?lang=en"><h3 class="text-thin col-md-12">Lover</h3></a>-->
+                <!--<a target="_blank" href="https://twitter.com/CodeNewbies?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><h3 class="text-thin col-md-12">Noob</h3></a>-->
+                <!--<a target="_blank" href="https://cs50.harvard.edu/lectures"><h3 class="text-thin col-md-12">Learner</h3></a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--6-6-16 another invisible hr-->
+        <!--<div class="row">-->
+            <!--<div class="col-md-12">-->
+                <!--<hr>-->
+            <!--</div>-->
+        <!--</div>-->
+
+
+got it! added title class to div that img is in which adds margin auto
+trying to fix title.
+copy and paste to save for later
+.title {
+    /*width: 100%;*/
+    text-align: right;
+    margin: auto;
+    font-weight: 100;
+    /*margin: 20px 0 20px 0;*/
+}
+
+removed bootstrap icon
+<!--bootstrapPage now in featured projects and eventually archived projects-->
+        <!--<div class="social-icon">-->
+            <!--<a target="_blank" href="bootStrapPage.html"><i class="fa fa-bold" aria-hidden="true"></i></a>-->
+        <!--</div>-->
+
+   <!--links to featured projects-->
+        <div class="row">
+            <div class="col-4">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#project1">
+                    <h5><a target="_blank" href="http://codepen.io/zenvercoder/pen/EKrJNj">My First Code Pen</a></h5>
+                </button>
+            </div>
+        </div>
+
+extra featured project cut
+ <div class="col-4">
+                <!-- Button trigger modal -->
+                <img class="featured-work img-responsive" src="images/hippoPen.png">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#project1">
+                    <h5><a target="_blank" href="http://codepen.io/zenvercoder/pen/ZWZbyv">Hippogriff</a></h5>
+                </button>
+            </div>
+
+
+another version of featured work. word takes you to the site and picture is modal.
+using opposite way
+
+<div class="col-4">
+                <!-- Button trigger modal -->
+                <a target="_blank" href="http://codepen.io/zenverdev/pen/ZWZbyv">
+                    <img class="img-responsive hippogriff" src="images/Hippogriff.png">
+                </a>
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#project3">
+                    <h5>Hippogriff</h5>
+                </button>
+            </div>
+
+old featured work look. huge hippogriff pic, two extra buttons
+<div class="col-4">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#project3">
+                    <img class="img-responsive hippogriff" src="images/Hippogriff.png">
+                </button>
+                <h5>Hippogriff</h5>
+                <p>
+                    <a target="_blank" href="http://codepen.io/zenverdev/pen/ZWZbyv">favapp</a>
+                </p>
+            </div>
+
+
+
+6-6-16
+
+fr index.html: already have a working flowing poem
+<!--<div>-->
+                <!--<a target="_blank" href="https://twitter.com/thecoderlife?lang=en"><h2 class="text-thin col-md-12">Lover</h2></a>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<a target="_blank" href="https://twitter.com/CodeNewbies?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><h2 class="text-thin col-md-12">Noob</h2></a>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<a target="_blank" href="https://cs50.harvard.edu/lectures"><h2 class="text-thin col-md-12">Learner</h2></a>-->
+                <!--</div>-->
+
+fr index.html... got the imgresponsive working
+   <!--<div class="row">-->
+        <!--<div class="col-md-12">-->
+        <!--<hr>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+            <!--<div class="col-md-12">-->
+                <!--<img class="img-responsive" src="http://placehold.it/750x150">-->
+            <!--</div>-->
+        <!--</div>-->
+
+fr @media screen and (max-width: 480px){
+
+
+/*make links bar stand up on left side*/
+       /*.links-bar {*/
+       /*margin: 0px 550px 60px 60px;*/
+       /*}*/
+
+fr @media screen and (max-width: 480px){
+
+       /*.col-4 {*/
+           /*display: block:*/
+           /*width: 100%;*/
+           /*display: flex; flex-wrap:wrap;*/
+           /*}*/
+
+
+
+/*.right-sidebar {*/
+/*text-align: center;*/
+/*width: 200px;*/
+/*right: 0;*/
+/*}*/
+
+from .container
+/*overflow: scroll;*/
+    /* if red border in .container.div only 3 main divs are highlighted*/
+    /*border: 1px solid red;*/
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+
+
+
+
+/*iPad width 768 px*/
+/*iPhone6+ = 414 x 736 */
+/*bigger than iPhone 6+*/
+@media screen and (min-width: 415px){
+
+    .featured-work {
+        font-size: 1.5em;
+    }
+    .col-4 {
+        /*display: block:*/
+        width: 100%;
+        /*display: flex; flex-wrap:wrap;*/
+    }
+    .img-lg {
+        display: none;
+    }
+    .img-sm {
+        display: none;
+    }
+    .right-sidebar {
+        display: in-line;
+        text-align: center;
+        width: 175px;
+        right: 0;
+    }
+}
+
+
+switching back to working from big to little
+
+@media screen and (min-width: 415px){
+
+    .title {
+        /*width: 100%;*/
+        text-align: right;
+        /*margin: auto;*/
+        /*margin: 20px 0 20px 0;*/
+    }
+
+    .title-logo {
+        /*width: 90px;*/
+        /*height: 90px;*/
+        height: 150px;
+        width: 150px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*make z coder bigger w bigger screen*/
+    .title-super {
+        font-size: 2.5em;
+        /*font-size: 40px;*/
+        margin: auto;
+        margin-top: 20px;
+        /*margin-top: 10px;*/
+    }
+removed from .title-logo:
+.title-logo {
+    /*margin: 20px 0 0 20px;*/
+    /*margin: auto;*/
+    /*margin-left: 20px;*/
+    /*margin-top: 5px;*/
+    /*correct size, still scales*/
+    width: 90px;
+    height: 90px;
+}
+
+ haven't used this ...ever?:
+
+.grid {
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*-ms-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    /*display: block;*/
+    /*fr bootstrappage*/
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+    /*margin: 30px;*/
+}
+
+  removed meia query for bigger screens
+
+/*bigger screens like laptops*/
+/*@media screen and (min-width: 769px) and (max-width: 1280px) {*/
+/*.title-logo {*/
+/*height: 100px;*/
+/*width: 100px;*/
+/*margin: auto;*/
+/*}*/
+/*.img-md {*/
+/*display: none;*/
+/*}*/
+/*.img-sm {*/
+/*display: none;*/
+/*}*/
+/*}*/
+
+  changing background color to be white to start (for mobile) and black for bigger screen w media queries
+  d/*color: #bfbfbf;*/
+       /*color: 747704;*/
+       /*background-color: rgba(38, 0, 51, .5);*/
+       color: white;
+       background-color: black;
+
+  for iPhone 4 and smaller (just made it same for 4,5,6)
+  /*iPhone 4 width 320w x 480 height*/
+  /*5-30-16 seems redundant for iPhone 4, 5 and 6*/
+  /*@media only screen and (min-width: 1px) and (max-width: 320px) {*/
+      /*.container {*/
+          /*background-color: white;*/
+          /*color: black;*/
+      /*}*/
+      /*.title {*/
+          /*width: 100%;*/
+          /*text-align: center;*/
+          /*margin: auto;*/
+      /**/
+      /*}*/
+      /*.title-logo {*/
+          /*height: 75px;*/
+          /*width: 75px;*/
+          /*margin: auto;*/
+          /*margin-top: 10px;*/
+          /*margin-bottom: 10px;*/
+      /*}*/
+      /*make z coder smaller w smaller screen*/
+      /*.title-super {*/
+          /*font-size: 1.5em;*/
+          /*margin-top: 20px;*/
+      /*}*/
+      /*.img-lg {*/
+          /*display: none;*/
+      /*}*/
+      /*.img-md {*/
+          /*display: none;*/
+      /*}*/
+      /*.img-sm {*/
+          /*display: none;*/
+      /*}*/
+      /*.featured-work {*/
+          /*font-size: 1.17em;*/
+      /*}*/
+      /*.col-4 {*/
+          /*width: 100%*/
+      /*}*/
+      /*.right-sidebar {*/
+          /*display: none;*/
+      /*}*/
+      /*hr {*/
+          /*display: none;*/
+      /*}*/
+  /*}*/
+
+
+  /*made logo humongous, but it scales*/
+      /*min-width: 150px;*/
+      /*min-height: 150px;*/
+      /*takes up entire column, cant even scroll, can't see other divs in center column*/
+          /*width: 100%;*/
+          /*height: 100%;*/
+
+  <!--  <div class="links-bar">
+            <div class="social-icon">
+                <a target="_blank" href="https://github.com/lHull7"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+            <div class="social-icon">
+                <a target="_blank" href="https://twitter.com/zenverdev?lang=en"><i class="fa fa-twitter" aria-hidden="ztrue"></i> </a>
+            </div>
+            <div class="social-icon">
+                <a target="_blank" href = "http://codepen.io/zenverdev/"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+            </div>
+            <div class="social-icon">
+                <a target="_blank" href = "page2.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="social-icon">
+                <a target="_blank" href = "bootStrapPage.html"><i class="fa fa-bold" aria-hidden="true"></i></a>
+            </div>
+        </div>-->
+
+
+CSS art in center column
+            <a target="_blank" href = "https://cs50.harvard.edu/lectures"><h2 class="text-thin">Learner</h2></a>
+                </div>
+            </div>
+            <!--<div>-->
+                <!--CSS Art-->
+            <!--</div>-->
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>
+                        Featured Work
+
+
+<!--tried svg, not yet 5-28-16-->
+                    <!--<svg height="520" width="800" class="title-logo img-responsive">-->
+                        <!--<text x="0" y="15" fill="#bfbfbf">Z</text>-->
+                    <!--</svg>-->
+
+ <meta charset="utf-8">
+         <!--Telling Internet Explorer to use best engine you've got-->
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <!--for mobile-->
+         <!--Instructs page to match the screen's width in device independent pixels-->
+         <!--initial-scale=1 tells browser to establish a 1:1 relationship between device independent pixels (DIPs)
+         and CSS pixels-->
+         <!--without scale=1, some browsers will keep the page width constant when rotating to landscape mode and they
+         SCALE the content rather than letting it flow-->
+         <meta name="viewport" content="width="device-width, initial-scale=1">
+         <!--include modals-->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+         <script type="text/javascript" src="framework/jQuery/juery-2.2.3.js"></script>
+         <!--<script type="text/javascript" src="../framework/jQuery/jquery-2.2.3.min.js"></script>-->
+         <script type="text/javascript" src="framework/bootstrap/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="framework/bootstrap/css/bootstrap.min.css">
+         <!--include fonts-->
+         <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+         <!--include icons-->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+         <!--to include bootstrap-->
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!--personally customized style sheet-->
+         <link rel="stylesheet" href="css/styles.css">
+         <!--media queries stylesheet for responsive design-->
+         <!--other media types like handheld, projected, embossed never gained traction. just stick with screen and
+         print if you think your user will want to print page-->
+         <link rel="stylesheet" media="screen and (min-width:500px)" href="../css/mediaQueries.css">
+         <link rel="images" src="/images">
+         <title>zcoder</title>
+
+
+
+
+
+
+
+  <!--<div class="social-icon">-->
+            <!--<a target="_blank" href="https://www.pinterest.com/lisamariehull/"><i class="fa fa-pinterest-p"-->
+                                                                                  <!--aria-hidden="true"></i></a>-->
+        <!--</div>-->
+        <!--<div class="social-icon">-->
+            <!--<a target="_blank" href="https://www.instagram.com/lhull7/"><i class="fa fa-instagram"-->
+                                                                           <!--aria-hidden="true"></i></a>-->
+        <!--</div>-->
+

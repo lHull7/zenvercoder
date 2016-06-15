@@ -1,0 +1,240 @@
+<!DOCTYPE !hmtl>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--Telling Internet Explorer to use best engine you've got-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--for mobile-->
+    <!--Instructs page to match the screen's width in device independent pixels-->
+    <!--initial-scale=1 tells browser to establish a 1:1 relationship between device independent pixels (DIPs)
+    and CSS pixels-->
+    <!--without scale=1, some browsers will keep the page width constant when rotating to landscape mode and they
+    SCALE the content rather than letting it flow-->
+    <!--"device-width, initial scale not allowed not allowed"-->
+    <meta name="viewport" width="device-width initial-scale=1">
+    <!--include modals-->
+    <!--no locally stored library for http link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!--cannot resolve directory "framework" or "jQuery"-->
+    <script type="text/javascript" src="framework/jQuery/jquery-2.2.3.js"></script>
+    <script type="text/javascript" src="framework/jQuery/jquery-2.2.3.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <!--attribute "integrity not allowed here"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--include fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <!--include icons-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!--to include bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--personally customized style sheet-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--media queries stylesheet for responsive design-->
+    <!--other media types like handheld, projected, embossed never gained traction. just stick with screen and
+    print if you think your user will want to print page-->
+    <!--cannot resolve "mediaQueries.css"-->
+    <!--<link rel="stylesheet" media="screen and (min-width:500px)" href="mediaQueries.css">-->
+    <!--attribute src not allowed here-->
+    <link rel="images" src="images">
+    <title>Udacity Example</title>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="links-bar">
+        <div class="social-icon">
+            <a target="_blank" href="https://github.com/lHull7"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="https://twitter.com/zenverdev?lang=en"><i class="fa fa-twitter"
+                                                                               aria-hidden="true"></i> </a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="http://codepen.io/zenverdev/"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="social-icon">
+            <a target="_blank" href="page2.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="social-icon">
+            <!--cannot resolve bootstrappage-->
+            <a target="_blank" href="bootStrapPage.html"><i class="fa fa-bold" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+
+    <div class="center-column">
+
+        <div class="row">
+            <div class="col-md-6">
+                <!--attribute "img-responsive not allowed here-->
+                <img class="title-logo img-responsive" src="http://1onjea25cyhx3uvxgs4vu325.wpengine.netdna-cdn.com/wp-content/themes/udacity_wp_1_8/images/udacity_mark.png"
+                     alt="Udacity Logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title-super text-thin">zcoder</h1>
+                <h4>Front-end Ninja</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="http://placehold.it/750x150">
+            </div>
+        </div>
+
+        <div>
+            <div class="poem"><a target="_blank" href="https://www.codecademy.com/en/learn/web"><h3>Code</h3></a></div>
+        </div>
+
+        <div>
+            <div class="flowing-poem">
+                <a target="_blank" class="col-md-12"
+                   href="https://twitter.com/CodeNewbies?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><h1>
+                    Noob</h1></a>
+                <a target="_blank" class="col-md-12" href="https://twitter.com/thecoderlife?lang=en"><h1>Lover</h1></a>
+                <a target="_blank" class="col-md-12" href="https://cs50.harvard.edu/lectures"><h1>Learner</h1></a>
+            </div>
+        </div>
+        <div>
+            CSS Art
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-thin">
+                    Featured Work
+                </h2>
+            </div>
+        </div>
+
+        <div class="grid featured-projects">
+            <div class="row">
+                <div class="col-4">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#project1">
+                        <img class="img-responsive hippogriff" src="images/Hippogriff.png">
+                    </button>
+                    <h2>Hippogriff</h2>
+                    <p>
+                        <a target="_blank" href="http://codepen.io/zenverdev/pen/ZWZbyv">favapp</a>
+                    </p>
+                </div>
+
+                <div class="col-4">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#project2">
+                        <img class="img-responsive hippogriff" src="images/Hippogriff.png">
+                    </button>
+                    <h2>Hippogriff</h2>
+                    <p>
+                        <a target="_blank" href="http://codepen.io/zenverdev/pen/ZWZbyv">favapp</a>
+                    </p>
+                </div>
+
+                <div class="col-4">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#project3">
+                        <img class="img-responsive hippogriff" src="images/Hippogriff.png">
+                    </button>
+                    <h2>Hippogriff</h2>
+                    <p>
+                        <a target="_blank" href="http://codepen.io/zenverdev/pen/ZWZbyv">favapp</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-sidebar">
+        <div class="gif">
+            <a target="_blank" href="https://49.media.tumblr.com/tumblr_lsttxczwX31qdv646o1_500.gif">
+                How I feel about programming</a>
+        </div>
+        <div class="instructions">Archived art</div>
+        <div class="decorative-bit">decorative bit</div>
+        <div class="archived-projects">archived projects</div>
+    </div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <!--Udacity example-->
+    <!--attribute betarole is not allowed here-->
+    <div class="modal-dialog" ßrole="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Hippogriff h4 class modal title</h4>
+            </div>
+            <div class="modal-body">
+                <!--<img class="img-responsive" src="../images/Hippogriff.png" alt="Hippogriff">-->
+                A project from Udacity's Front End Developer Program s eaque possimus repellendus minima ac,
+                maiores saepe inventore congue cursus eum, numquam lectus aute sodales volutpat orci facere placerat n
+                obis libero doloremque ac iure porro cum parturient atque nec pariatur orci libero. Nam nonummy nonummy
+                morbi ullamcorper, vitae quas dolor reprehenderit volutpat erat unde laboriosam, curae? Modi, sequi lab
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--fix the multiple ids of same name-->
+<!-- Modal -->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <!--Cannot resolve directory images' or file 555.jpeg-->
+                <img class="img-responsive" src="images/firstCodePen.png">
+                This was my first project in this class. I learned a lot about HTML and CSS.
+                ject from Udacity's Front End Developer Program s eaque possimus repellendus minima ac,
+                maiores saepe inventore congue cursus eum, numquam lectus aute sodales volutpat orci facere placerat n
+                obis libero doloremque ac iure porro cum parturient atque nec pariatur orci libero. Nam nonummy nonummy
+                morbi ullamcorper, vitae quas dolor reprehenderit
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/firstCodePen.png">
+                This was my first project in this class. I learned a lot about HTML and CSS.
+                ject from Udacity's Front End Developer Program s eaque possimus repellendus minima ac,
+                maiores saepe inventore congue cursus eum, numquam lectus aute sodales volutpat orci facere placerat n
+                obis libero doloremque ac iure porro cum parturient atque nec pariatur orci libero. Nam nonummy nonummy
+                morbi ullamcorper, vitae quas dolor reprehenderit
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
