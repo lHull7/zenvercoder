@@ -120,14 +120,14 @@ a:hover {
 .bod {
     margin-left: 40px;
     /*position: relative;*/
-    /*border: 1px solid #97F9F9;*/
+    border: 1px solid #97F9F9;
 }
 
 .center-column {
     /*text-align: center;*/
     margin: 20px 175px 150px 20px;
     padding-bottom: 50px;
-    /*border: 1px solid blue;*/
+    border: 1px solid blue;
     position: absolute;
     width: 80%;
 }
@@ -206,7 +206,7 @@ h3 {
     position: relative;
     overflow: hidden;
     max-width: 1600px;
-    /*border: 1px solid yellow;*/
+    border: 1px solid yellow;
     text-align: center;
 
     display: block;
@@ -222,7 +222,8 @@ h3 {
     z-index: 8;
     box-sizing: border-box;
     height: 250px;
-    margin-right: 2px;
+    /*margin-right: 2px;*/
+    margin: auto;
     padding: 20px;
     transition: all 200ms ease-out;
     -webkit-transition: all 200ms ease-out;
@@ -231,7 +232,7 @@ h3 {
     background-color: #EAEAEA;
     -webkit-transform: translateZ(0);
     overflow: hidden;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 .borderGray:hover {
