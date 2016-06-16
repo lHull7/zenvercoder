@@ -3,21 +3,17 @@
     width: 100%;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
-    /*background-color: #FFF;*/
     color: #bfbfbf;
     background-color: #F2F2F2;
-    /*background-color: #C2DFE3;*/
-    /*color: #011638;*/
-    /*color: rgba(102, 77, 0, .8);*/
-    /*color: rgba(191, 191, 191, 0.95);-sizing: border-box;*/
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    /*position: absolute;*/
+    position: absolute;
     /*overflow: hidden;*/
     overflow: scroll;
     padding-left: 0;
     padding-right: 0;
+    /*border: 1px solid green;*/
 }
 
 div {
@@ -129,7 +125,7 @@ a:hover {
     /*text-align: center;*/
     margin: 20px 175px 150px 20px;
     padding-bottom: 50px;
-    /*border: 1px solid blue;*/
+    border: 1px solid blue;
     position: absolute;
     width: 80%;
 }
@@ -208,7 +204,7 @@ h3 {
     position: relative;
     overflow: hidden;
     max-width: 1600px;
-    /*border: 1px solid yellow;*/
+    border: 1px solid yellow;
     text-align: center;
 
     display: block;
@@ -224,7 +220,7 @@ h3 {
     border-radius: 3px;
     z-index: 8;
     box-sizing: border-box;
-    height: 185px;
+    height: 250px;
     margin-right: 2px;
     padding: 20px;
     transition: all 200ms ease-out;
@@ -245,10 +241,8 @@ h3 {
     height: 130px;
     width: 200px;
     overflow: hidden;
-    /*border-radius: 3px;*/
     /*border: 1px solid cyan;*/
     margin: auto;
-    /*margin-top: 15px;*/
 }
 
 .featured-work-img {
@@ -266,26 +260,27 @@ h3 {
     transform: scale(1.04);
     transition: 0.7s;
     overflow: hidden;
-
     /*border: 1px solid yellow;*/
 }
 
 .description {
     /*text-weight: thin;*/
-    /*width: 100%;*/
+    width: 100%;
     /*background: #111;*/
     /*background: rgba(15,15,15,0.78);*/
-    /*bottom: -2px;*/
-    margin-bottom: 10px;
+    bottom: -2px;
+    margin-top: 40px;
     /*color: #fff;*/
+    border: 1px solid #d0d0d0;
+    /*border: 1px solid red;*/
 }
 
 .description:hover {
     transform: scale(1.04);
-    color: #D68FD6;
     overflow: hidden;
     /*border: 1px solid #97F9F9;*/
 }
+
 
 a.inner p {
     -webkit-animation: footerSlide 400ms 0.1s ease-out backwards;
@@ -315,13 +310,13 @@ a.inner p {
 }
 
 .right-sidebar {
-    padding-top: 35px;
-    margin-right: 0;
-    /*position: absolute;*/
+    /*padding-top: 35px;*/
+    /*margin-right: 0;*/
+    position: relative;
     text-align: center;
-    height: 100%;
-    width: 150px;
-    margin-left: auto;
+    height: 150px;
+    width: 100%;
+    margin: auto;
     /*border: 1px solid red;*/
 }
 
