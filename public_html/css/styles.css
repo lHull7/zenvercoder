@@ -106,7 +106,11 @@ a:hover {
 .social-icon:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     color: rgba(255, 255, 255, 0.95);
-    top: 12px;
+}
+
+.social-icon:active {
+    top: 7px;
+    /*transition: 0.5s;*/
 }
 
 .fa.fa-github {
@@ -318,10 +322,6 @@ a.inner p {
     /*border: 1px solid red;*/
 }
 
-.btn:hover {
-    color: #D68FD6;
-}
-
 .modal-img-container {
     position: relative;
     overflow: hidden;
@@ -367,11 +367,15 @@ a.inner p {
         display: inline-block;
     }
     .title-logo {
-        /*margin: auto;*/
+        margin: auto;
         height: 95px;
         width: 95px;
         margin-top: -20px;
         /*margin-bottom: 10px;*/
+    }
+
+    .filler {
+        display: none;
     }
     .title-super {
         font-size: 1.75em;
