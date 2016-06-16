@@ -103,9 +103,8 @@ a:hover {
     text-align: center;
     vertical-align: middle;
     padding: 2px 0 2px 2px;
-    margin: 10px 10px 10px 10px;
-    /*margin: 10px;*/
-    margin-left: inherit;
+    margin: 10px;
+    /*margin-left: inherit;*/
     /*border: 1px solid red;*/
 }
 
@@ -140,23 +139,22 @@ a:hover {
     margin: auto;
     /*margin: 20px 0 20px 0;*/
     /*border: 1px solid red;*/
-    display-flex: flex-wrap;
 }
 
 .title-logo {
     height: 100px;
     width: 100px;
-    margin: auto;
+    /*margin: auto;*/
     margin-left: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
     color: #bfbfbf;
 }
 
 .title-super {
     font-size: 3em;
     font-weight: 100;
-    margin: auto;
+    /*margin: auto;*/
     margin-top: 20px;
 }
 
@@ -221,7 +219,7 @@ h3 {
     -webkit-transition: height 200ms ease-out;
     transition: height 200ms ease-out;
     max-width: 1600px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     margin-top: 10px;
     /*border: 1px solid yellow;*/
     text-align: center;
@@ -267,6 +265,10 @@ h3 {
     /*border: 1px solid yellow;*/
 }
 
+.description {
+
+}
+
 footer {
     /*border: 1px solid #011638;*/
     width: 200px;
@@ -289,10 +291,6 @@ a.inner footer {
     bottom: -2px;
     margin-bottom: 10px;
     color: #fff;
-}
-
-figcaption {
-    max-width: 100%;
 }
 
 .modal-img {
@@ -328,7 +326,7 @@ figcaption {
     /*-webkit-transition: height 200ms ease-out;*/
     /*transition: height 200ms ease-out;*/
     max-width: 1600px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     margin-top: 10px;
 }
 
@@ -374,13 +372,13 @@ figcaption {
 
     .title {
         text-align: center;
-        margin: auto;
+        /*margin: auto;*/
         margin-top: 50px;
         margin-bottom: 25px;
         display: inline-block;
     }
     .title-logo {
-        margin: auto;
+        /*margin: auto;*/
         height: 95px;
         width: 95px;
         margin-top: -20px;
@@ -388,7 +386,7 @@ figcaption {
     }
     .title-super {
         font-size: 1.75em;
-        margin: auto;
+        /*margin: auto;*/
         margin-top: 10px;
     }
 

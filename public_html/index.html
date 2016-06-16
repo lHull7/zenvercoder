@@ -10,9 +10,8 @@
     and CSS pixels-->
     <!--without scale=1, some browsers will keep the page width constant when rotating to landscape mode and they
     SCALE the content rather than letting it flow-->
-    <meta name="viewport" content="width=" device-width, initial-scale=1">
+    <!--<meta name="viewport" content="width="device-width, initial-scale=1">-->
     <!--include modals-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script type="text/javascript" src="framework/jQuery/jquery-2.2.3.js"></script>
     <script type="text/javascript" src="framework/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="framework/bootstrap/css/bootstrap.min.css">
@@ -24,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--personally customized style sheet-->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="images" src="images">
+    <link rel="images" href="images">
     <!--hippogriff image attribution-->
     <!--http://leagueoflegends.wikia.com/wiki/File:Technology_Wizard_Gryphon_Concept.jpg-->
     <title>zcoder</title>
@@ -95,64 +94,120 @@
                 </div>
             </div>
 
+            <!--micro main-->
             <div class="grid featured-work-container feat-work-lg">
 
+                <!--micro clearfix-->
                 <div class="row col-4">
-                    <!--<div class="row borderGray p1 col-4">-->
-                    <div class="featured-work">
-                        <a target="_blank" href="http://codepen.io/zenvercoder/pen/EKrJNj" class="inner">
-                            <!--<div>-->
-                            <img src="images/firstCodePen.png" class="featured-work-img img-responsive"
-                                 alt="first code pen"/>
-                            <footer>
-                                <figcaption>
-                                    <h5 class="fig_cap" data-toggle="modal" data-target="#project1">My First Code
-                                        Pen</h5>
-                                </figcaption>
-                            </footer>
-                            <!--</div>-->
-                        </a>
+                    <!--micro li class br -->
+                    <div class="row borderGray p1 col-4">
+                        <div class="featured-work">
+                            <a target="_blank" href="http://codepen.io/zenvercoder/pen/EKrJNj" class="inner">
+                                <!--<div>-->
+                                <img src="images/firstCodePen.png" class="featured-work-img img-responsive"
+                                     alt="first code pen"/>
+                                <div class="description">
+                                    <!--<p>-->
+                                    <p class="fig_cap" data-toggle="modal" data-target="#project1">My First Code
+                                        Pen</p>
+                                    <!--</p>-->
+                                </div>
+                                <!--</div>-->
+                            </a>
+                        </div>
                     </div>
-                    <!--</div>-->
                 </div>
 
                 <div class="row col-4">
-                    <!--<div class="borderGray p2 col-6">-->
-                    <div class="featured-work">
-                        <a target="_blank" href="http://codepen.io/zenverdev/pen/ZWZbyv" class="inner">
-                            <div>
-                                <img src="images/hippoPen.png" class="featured-work-img img-responsive"
-                                     alt="hippogriff pen"/>
-                                <footer>
-                                    <figcaption>
-                                        <h5 class="fig_cap" data-toggle="modal" data-target="#project2">Hippogriff</h5>
-                                    </figcaption>
-                                </footer>
-                            </div>
-                        </a>
+                    <div class="borderGray p2 col-6">
+                        <div class="featured-work">
+                            <a target="_blank" href="http://codepen.io/zenverdev/pen/ZWZbyv" class="inner">
+                                <div>
+                                    <img src="images/hippoPen.png" class="featured-work-img img-responsive"
+                                         alt="hippogriff pen"/>
+                                    <div class="description">
+                                        <!--<p>-->
+                                        <p class="fig_cap" data-toggle="modal" data-target="#project2">Hippogriff</p>
+                                        <!--</p>-->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <!--</div>-->
                 </div>
 
                 <div class="row col-4">
-                    <!--<div class="borderGray p3 col-4">-->
-                    <div class="featured-work p3">
-                        <a target="_blank" href="http://zenvercoder.co/bootStrapPage.html" class="inner">
-                            <div>
-                                <img src="images/bootStrapProject.png" class="featured-work-img  img-responsive"
-                                     alt="bootstrap mockup page"/>
-                                <footer>
-                                    <figcaption>
-                                        <h5 class="fig_cap" data-toggle="modal" data-target="#project3">Bootstrap
-                                            Mockup</h5>
-                                    </figcaption>
-                                </footer>
-                            </div>
-                        </a>
+                    <div class="borderGray p3 col-4">
+                        <div class="featured-work p3">
+                            <a target="_blank" href="http://zenvercoder.co/bootStrapPage.html" class="inner">
+                                <div>
+                                    <img src="images/bootStrapProject.png" class="featured-work-img  img-responsive" alt="bootstrap mockup page"/>
+                                    <div class="description">
+                                        <!--<p>-->
+                                        <p class="fig_cap" data-toggle="modal" data-target="#project3">Bootstrap
+                                            Mockup</p>
+                                        <!--</p>-->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <!--</div>-->
                 </div>
             </div>
+
+                <!--<div class="row col-4">-->
+                    <!--&lt;!&ndash;<div class="row borderGray p1 col-4">&ndash;&gt;-->
+                    <!--<div class="featured-work">-->
+                        <!--<a target="_blank" href="http://codepen.io/zenvercoder/pen/EKrJNj" class="inner">-->
+                            <!--&lt;!&ndash;<div>&ndash;&gt;-->
+                            <!--<img src="images/firstCodePen.png" class="featured-work-img img-responsive"-->
+                                 <!--alt="first code pen"/>-->
+                            <!--<footer>-->
+                                <!--&lt;!&ndash;<p>&ndash;&gt;-->
+                                    <!--<p class="fig_cap" data-toggle="modal" data-target="#project1">My First Code-->
+                                        <!--Pen</p>-->
+                                <!--&lt;!&ndash;</p>&ndash;&gt;-->
+                            <!--</footer>-->
+                            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                        <!--</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="row col-4">-->
+                    <!--&lt;!&ndash;<div class="borderGray p2 col-6">&ndash;&gt;-->
+                    <!--<div class="featured-work">-->
+                        <!--<a target="_blank" href="http://codepen.io/zenverdev/pen/ZWZbyv" class="inner">-->
+                            <!--<div>-->
+                                <!--<img src="images/hippoPen.png" class="featured-work-img img-responsive"-->
+                                     <!--alt="hippogriff pen"/>-->
+                                <!--<footer>-->
+                                    <!--&lt;!&ndash;<p>&ndash;&gt;-->
+                                        <!--<p class="fig_cap" data-toggle="modal" data-target="#project2">Hippogriff</p>-->
+                                    <!--&lt;!&ndash;</p>&ndash;&gt;-->
+                                <!--</footer>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="row col-4">-->
+                    <!--&lt;!&ndash;<div class="borderGray p3 col-4">&ndash;&gt;-->
+                    <!--<div class="featured-work p3">-->
+                        <!--<a target="_blank" href="http://zenvercoder.co/bootStrapPage.html" class="inner">-->
+                            <!--<div>-->
+                                <!--<img src="images/bootStrapProject.png" class="featured-work-img  img-responsive" alt="bootstrap mockup page"/>-->
+                                <!--<footer>-->
+                                    <!--&lt;!&ndash;<p>&ndash;&gt;-->
+                                        <!--<p class="fig_cap" data-toggle="modal" data-target="#project3">Bootstrap-->
+                                            <!--Mockup</p>-->
+                                    <!--&lt;!&ndash;</p>&ndash;&gt;-->
+                                <!--</footer>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--</div>-->
+            <!--</div>-->
 
             <div class="feat-work-sm col-4">
                 <a target="_blank" href="http://codepen.io/zenvercoder/pen/EKrJNj">
@@ -164,13 +219,11 @@
                     <img src="images/hippoPen.png" class="featured-work-img img-responsive" alt="hippogriff pen"/>
                 </a>
                 <h5 class="fig_cap" data-toggle="modal" data-target="#project2">Hippogriff</h5>
-                </a>
                 <a target="_blank" href="http://zenvercoder.co/bootStrapPage.html" class="inner">
                     <img src="images/bootStrapProject.png" class="featured-work-img  img-responsive"
                          alt="bootstrap mockup page"/>
                 </a>
                 <h5 class="fig_cap" data-toggle="modal" data-target="#project3">Bootstrap Mockup</h5>
-                </a>
             </div>
 
         </div>
@@ -186,7 +239,7 @@
 
     <!-- Modal -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" ßrole="document">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">My First Codepen</h4>
