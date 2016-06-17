@@ -3,7 +3,8 @@
     width: 100%;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
-    color: #bfbfbf;
+    /*color: #bfbfbf;*/
+    color: black;
     background-color: #F2F2F2;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -21,18 +22,6 @@ div {
     /*border: 1px solid red;*/
 }
 
-/*affects the 3 main divs!*/
-.container>div {
-    /*if not position: aboslute, the 3 main divs are stacked and not aligned*/
-    /*6-7-16, not absolute: links bar can remain fixed in smaller screens*/
-    /*position: absolute;*/
-    /*if not top:0, everything moves way way down*/
-    top: 0;
-    /*if not bottom: 0; the container is short with no scrolling*/
-    bottom: 0;
-}
-
-/*5-18-16*/
 /*to prevent elements from overflowing their containers*/
 img,
 embed,
@@ -44,22 +33,20 @@ video {
 /*so buttons aren't tiny and impossible to hit*/
 a,
 button {
-    /*tap targets should be bigger than the ave finger*/
-    /*if you don't use min- for width and height
-    it won't allow the element to resize if the content inside of it
-    is bigger than the container*/
     min-width: 48px;
     min-height: 48px;
 }
 
 a:link {
     text-decoration: none;
-    color: #bfbfbf;
+    /*color: #bfbfbf;*/
     /*color: #011638;*/
+    color: black;
 }
 
 a:visited {
-    color: #bfbfbf;
+    color: black;
+    /*color: #bfbfbf;*/
 }
 
 a:hover {
@@ -117,42 +104,31 @@ a:hover {
     font-size: 30px;
 }
 
-.bod {
-    margin-left: 40px;
-    /*position: relative;*/
-    border: 1px solid #97F9F9;
-}
-
 .center-column {
-    /*text-align: center;*/
-    margin: 20px 175px 150px 20px;
+    margin: 20px auto;
     padding-bottom: 50px;
-    border: 1px solid blue;
-    position: absolute;
+    /*border: 1px solid blue;*/
     width: 80%;
 }
 
-.title {
-    width: 33%;
+.header {
     text-align: right;
-    margin: auto;
-    /*margin: 20px 0 20px 0;*/
     /*border: 1px solid red;*/
 }
 
-.title-logo {
+.header .logo {
     height: 100px;
     width: 100px;
     margin-left: 0;
-    color: #bfbfbf;
+    /*border: 1px solid yellow;*/
 }
 
-
-.title-super {
-    font-size: 3em;
+.header .title {
+    font-size: 2em;
     font-weight: 100;
-    /*margin: auto;*/
-    margin-top: 20px;
+    margin: 0 0 0 auto;
+    position: relative;
+    /*border: 1px solid purple;*/
 }
 
 .italic {
@@ -197,8 +173,9 @@ h3 {
 }
 
 .featured-work-text {
-    /*margin-left: -15px;*/
-    text-align: center;
+    margin-left: -11px;
+    text-align: left;
+    color: black;
     /*border: 1px solid lime;*/
 }
 
@@ -206,7 +183,7 @@ h3 {
     position: relative;
     overflow: hidden;
     max-width: 1600px;
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     text-align: center;
 
     display: block;
@@ -222,17 +199,15 @@ h3 {
     z-index: 8;
     box-sizing: border-box;
     height: 250px;
-    /*margin-right: 2px;*/
     margin: auto;
     padding: 20px;
     transition: all 200ms ease-out;
     -webkit-transition: all 200ms ease-out;
     cursor: pointer;
-    /*background: transparent;*/
     background-color: #EAEAEA;
     -webkit-transform: translateZ(0);
     overflow: hidden;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .borderGray:hover {
@@ -360,25 +335,25 @@ a.inner p {
         color: white;
     }
 
-    .title {
+    .header {
         text-align: center;
         /*margin: auto;*/
         margin-top: 50px;
         margin-bottom: 25px;
         display: inline-block;
+        /*border: 1px solid red;*/
     }
-    .title-logo {
+    .header .logo {
         margin: auto;
+        /*margin-left: 0;*/
         height: 95px;
         width: 95px;
         margin-top: -20px;
+        /*border: 1px solid lime;*/
         /*margin-bottom: 10px;*/
     }
 
-    .filler {
-        display: none;
-    }
-    .title-super {
+    .header .title {
         font-size: 1.75em;
         /*margin: auto;*/
         margin-top: 10px;
@@ -386,7 +361,7 @@ a.inner p {
 
     .featured-work-text {
         text-align: center;
-        color: #bfbfbf;
+        /*color: #bfbfbf;*/
         font-weight: 100;
     }
 
