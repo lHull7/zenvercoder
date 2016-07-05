@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <!--to include bootstrap-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--for logo bounce-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <!--personally customized style sheet-->
     <link rel="stylesheet" href="css/styles.css">
     <!--hippogriff image attribution-->
@@ -60,11 +64,21 @@
     </div>
 
     <div class="third">
+
+
         <div class="row header">
-            <div class="logo">
+            <div class="logo" id="bounce">
                 <img class="title-logo img-responsive"
                      src="images/yin_yang.png" alt="yin-yang"/>
             </div>
+
+            <script>
+                $( document ).click(function() {
+                    $( "#bounce" ).toggle( "bounce", { times: 3 }, "slow" );
+                });
+            </script>
+
+
             <div class="title">
                 <div class="text-uppercase">zenvercoder</div>
                 <!--<div class="text-uppercase">coder</div>-->

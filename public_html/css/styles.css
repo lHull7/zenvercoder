@@ -162,7 +162,7 @@ a:hover {
 .center-column {
     margin: 240px auto;
     padding-bottom: 50px;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     width: 80%;
     max-width: 1600px;
 }
