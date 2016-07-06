@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5d1709ab-e4fa-4f6f-9a4d-9a88ab28f203" name="zenvercoder.co" url="http://zenvercoder.co">
+        <fileTransfer host="ftp.zenvercoder.co" port="21098" rootFolder="/home/zenvtqjt" accessType="SFTP" password="dfd2dfdddfdbdfccdf9adfcfdfd8df93dfc7dfeedf92dfc7" username="zenvercoder">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

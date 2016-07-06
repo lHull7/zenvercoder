@@ -101,7 +101,7 @@ a:hover {
     vertical-align: middle;
     padding: 2px 0 2px 2px;
     /*margin: -3px 50px;*/
-    /*margin: auto;*/
+    margin: 0 25px 0 25px;
     /*border: 1px solid red;*/
 }
 
@@ -378,7 +378,7 @@ Tablet: Apple iPad*/
 @media screen and (max-width: 1300px) {
 
     .social-icon {
-        margin: -20px 100px;
+        /*margin: -20px 100px;*/
     }
 }
 
