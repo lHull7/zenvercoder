@@ -105,7 +105,6 @@ a:hover {
     text-align: center;
     vertical-align: middle;
     padding: 2px 0 2px 2px;
-    /*margin: -3px 50px;*/
     margin: 0 25px 0 25px;
     /*border: 1px solid red;*/
 }
@@ -180,7 +179,7 @@ a:hover {
 }
 
 .featured-work-container {
-    position: relative;
+    /*position: relative;*/
     overflow: hidden;
     max-width: 1600px;
     text-align: center;
@@ -391,15 +390,19 @@ Tablet: Apple iPad*/
 @media screen and (max-width: 500px) {
 
     .third {
-        background-color: white;
+        /*background-color: white;*/
     }
 
     .header .title {
-        color: black;
+        /*color: black;*/
     }
 
     .title a {
-        color: black;
+        /*color: black;*/
+    }
+
+    .featured-work-text {
+        text-align: center;
     }
 }
 /*iPad width 768 px*/
